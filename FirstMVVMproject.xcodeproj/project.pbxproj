@@ -63,6 +63,58 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		721DB39D24EBD107002C42EE /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				721DB39A24EBC5A0002C42EE /* bad_icon.png */,
+				721DB39924EBC5A0002C42EE /* very_bad_icon.png */,
+				721DB39724EB8FDF002C42EE /* usual_icon.png */,
+				72518DDB24EA7452007A742B /* fine_icon.png */,
+				72518DD924EA51F5007A742B /* splash_icon.png */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		721DB39E24EBD149002C42EE /* view */ = {
+			isa = PBXGroup;
+			children = (
+				7254EAA024C080A7006BAED2 /* SplashViewController.swift */,
+				7292922924CFE99100BE1ABC /* MainViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		721DB39F24EBD162002C42EE /* model */ = {
+			isa = PBXGroup;
+			children = (
+				72E4B32724C086B00078BE04 /* WeatherDataModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		721DB3A024EBD177002C42EE /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				7292922F24D0092D00BE1ABC /* WeatherDataService.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		721DB3A124EBD186002C42EE /* data */ = {
+			isa = PBXGroup;
+			children = (
+				725D7E2F24C2034C00728F89 /* AirInfo.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		721DB3A224EBD1A3002C42EE /* projectsetting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = projectsetting;
+			sourceTree = "<group>";
+		};
 		7254EA8024C07AFA006BAED2 = {
 			isa = PBXGroup;
 			children = (
@@ -84,19 +136,15 @@
 		7254EA8B24C07AFA006BAED2 /* FirstMVVMproject */ = {
 			isa = PBXGroup;
 			children = (
-				721DB39A24EBC5A0002C42EE /* bad_icon.png */,
-				721DB39924EBC5A0002C42EE /* very_bad_icon.png */,
-				721DB39724EB8FDF002C42EE /* usual_icon.png */,
-				72518DDB24EA7452007A742B /* fine_icon.png */,
-				72518DD924EA51F5007A742B /* splash_icon.png */,
 				7254EA8C24C07AFA006BAED2 /* AppDelegate.swift */,
-				7254EA9524C07AFB006BAED2 /* Assets.xcassets */,
 				7254EA9A24C07AFB006BAED2 /* Info.plist */,
-				7254EAA024C080A7006BAED2 /* SplashViewController.swift */,
-				72E4B32724C086B00078BE04 /* WeatherDataModel.swift */,
-				725D7E2F24C2034C00728F89 /* AirInfo.swift */,
-				7292922924CFE99100BE1ABC /* MainViewController.swift */,
-				7292922F24D0092D00BE1ABC /* WeatherDataService.swift */,
+				7254EA9524C07AFB006BAED2 /* Assets.xcassets */,
+				721DB3A224EBD1A3002C42EE /* projectsetting */,
+				721DB3A124EBD186002C42EE /* data */,
+				721DB3A024EBD177002C42EE /* viewmodel */,
+				721DB39F24EBD162002C42EE /* model */,
+				721DB39E24EBD149002C42EE /* view */,
+				721DB39D24EBD107002C42EE /* icon */,
 			);
 			path = FirstMVVMproject;
 			sourceTree = "<group>";
