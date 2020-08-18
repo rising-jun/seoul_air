@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		721DB39824EB8FDF002C42EE /* usual_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 721DB39724EB8FDF002C42EE /* usual_icon.png */; };
+		721DB39B24EBC5A0002C42EE /* very_bad_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 721DB39924EBC5A0002C42EE /* very_bad_icon.png */; };
+		721DB39C24EBC5A0002C42EE /* bad_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 721DB39A24EBC5A0002C42EE /* bad_icon.png */; };
+		72518DDA24EA51F5007A742B /* splash_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 72518DD924EA51F5007A742B /* splash_icon.png */; };
+		72518DDC24EA7452007A742B /* fine_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 72518DDB24EA7452007A742B /* fine_icon.png */; };
 		7254EA8D24C07AFA006BAED2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7254EA8C24C07AFA006BAED2 /* AppDelegate.swift */; };
-		7254EA8F24C07AFA006BAED2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7254EA8E24C07AFA006BAED2 /* SceneDelegate.swift */; };
-		7254EA9124C07AFA006BAED2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7254EA9024C07AFA006BAED2 /* ViewController.swift */; };
-		7254EA9424C07AFA006BAED2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7254EA9224C07AFA006BAED2 /* Main.storyboard */; };
 		7254EA9624C07AFB006BAED2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7254EA9524C07AFB006BAED2 /* Assets.xcassets */; };
-		7254EA9924C07AFB006BAED2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7254EA9724C07AFB006BAED2 /* LaunchScreen.storyboard */; };
+		7254EAA124C080A7006BAED2 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7254EAA024C080A7006BAED2 /* SplashViewController.swift */; };
+		725D7E3024C2034C00728F89 /* AirInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725D7E2F24C2034C00728F89 /* AirInfo.swift */; };
+		7292922A24CFE99100BE1ABC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7292922924CFE99100BE1ABC /* MainViewController.swift */; };
+		7292923024D0092D00BE1ABC /* WeatherDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7292922F24D0092D00BE1ABC /* WeatherDataService.swift */; };
+		72E4B32824C086B00078BE04 /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E4B32724C086B00078BE04 /* WeatherDataModel.swift */; };
+		FAE3A7A63D0FDF3771EC64E5 /* Pods_FirstMVVMproject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62BBFA426768E6342F473229 /* Pods_FirstMVVMproject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7254EA8924C07AFA006BAED2 /* FirstMVVMproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstMVVMproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B66DAB6A4ECA8D60E18114C /* Pods-FirstMVVMproject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstMVVMproject.debug.xcconfig"; path = "Target Support Files/Pods-FirstMVVMproject/Pods-FirstMVVMproject.debug.xcconfig"; sourceTree = "<group>"; };
+		62BBFA426768E6342F473229 /* Pods_FirstMVVMproject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirstMVVMproject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		721DB39724EB8FDF002C42EE /* usual_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usual_icon.png; sourceTree = "<group>"; };
+		721DB39924EBC5A0002C42EE /* very_bad_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = very_bad_icon.png; sourceTree = "<group>"; };
+		721DB39A24EBC5A0002C42EE /* bad_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bad_icon.png; sourceTree = "<group>"; };
+		72518DD924EA51F5007A742B /* splash_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_icon.png; sourceTree = "<group>"; };
+		72518DDB24EA7452007A742B /* fine_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fine_icon.png; sourceTree = "<group>"; };
+		7254EA8924C07AFA006BAED2 /* 공기 어때?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "공기 어때?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7254EA8C24C07AFA006BAED2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7254EA8E24C07AFA006BAED2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7254EA9024C07AFA006BAED2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7254EA9324C07AFA006BAED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7254EA9524C07AFB006BAED2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7254EA9824C07AFB006BAED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7254EA9A24C07AFB006BAED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7254EAA024C080A7006BAED2 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		725D7E2F24C2034C00728F89 /* AirInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirInfo.swift; sourceTree = "<group>"; };
+		7292922924CFE99100BE1ABC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7292922F24D0092D00BE1ABC /* WeatherDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataService.swift; sourceTree = "<group>"; };
+		72E4B32724C086B00078BE04 /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
+		A7AFC65B03E625AA13DBB51D /* Pods-FirstMVVMproject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstMVVMproject.release.xcconfig"; path = "Target Support Files/Pods-FirstMVVMproject/Pods-FirstMVVMproject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,24 +47,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE3A7A63D0FDF3771EC64E5 /* Pods_FirstMVVMproject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		522E49F21B5DE20EEA59D5FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B66DAB6A4ECA8D60E18114C /* Pods-FirstMVVMproject.debug.xcconfig */,
+				A7AFC65B03E625AA13DBB51D /* Pods-FirstMVVMproject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7254EA8024C07AFA006BAED2 = {
 			isa = PBXGroup;
 			children = (
 				7254EA8B24C07AFA006BAED2 /* FirstMVVMproject */,
 				7254EA8A24C07AFA006BAED2 /* Products */,
+				522E49F21B5DE20EEA59D5FD /* Pods */,
+				F0C8CD22D76583F40F38CB7B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		7254EA8A24C07AFA006BAED2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7254EA8924C07AFA006BAED2 /* FirstMVVMproject.app */,
+				7254EA8924C07AFA006BAED2 /* 공기 어때?.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +84,29 @@
 		7254EA8B24C07AFA006BAED2 /* FirstMVVMproject */ = {
 			isa = PBXGroup;
 			children = (
+				721DB39A24EBC5A0002C42EE /* bad_icon.png */,
+				721DB39924EBC5A0002C42EE /* very_bad_icon.png */,
+				721DB39724EB8FDF002C42EE /* usual_icon.png */,
+				72518DDB24EA7452007A742B /* fine_icon.png */,
+				72518DD924EA51F5007A742B /* splash_icon.png */,
 				7254EA8C24C07AFA006BAED2 /* AppDelegate.swift */,
-				7254EA8E24C07AFA006BAED2 /* SceneDelegate.swift */,
-				7254EA9024C07AFA006BAED2 /* ViewController.swift */,
-				7254EA9224C07AFA006BAED2 /* Main.storyboard */,
 				7254EA9524C07AFB006BAED2 /* Assets.xcassets */,
-				7254EA9724C07AFB006BAED2 /* LaunchScreen.storyboard */,
 				7254EA9A24C07AFB006BAED2 /* Info.plist */,
+				7254EAA024C080A7006BAED2 /* SplashViewController.swift */,
+				72E4B32724C086B00078BE04 /* WeatherDataModel.swift */,
+				725D7E2F24C2034C00728F89 /* AirInfo.swift */,
+				7292922924CFE99100BE1ABC /* MainViewController.swift */,
+				7292922F24D0092D00BE1ABC /* WeatherDataService.swift */,
 			);
 			path = FirstMVVMproject;
+			sourceTree = "<group>";
+		};
+		F0C8CD22D76583F40F38CB7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62BBFA426768E6342F473229 /* Pods_FirstMVVMproject.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7254EA9D24C07AFB006BAED2 /* Build configuration list for PBXNativeTarget "FirstMVVMproject" */;
 			buildPhases = (
+				B5FD744E06C97CB86F1E9F80 /* [CP] Check Pods Manifest.lock */,
 				7254EA8524C07AFA006BAED2 /* Sources */,
 				7254EA8624C07AFA006BAED2 /* Frameworks */,
 				7254EA8724C07AFA006BAED2 /* Resources */,
+				77FD1D155762B24C8AA6F207 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,7 +128,7 @@
 			);
 			name = FirstMVVMproject;
 			productName = FirstMVVMproject;
-			productReference = 7254EA8924C07AFA006BAED2 /* FirstMVVMproject.app */;
+			productReference = 7254EA8924C07AFA006BAED2 /* 공기 어때?.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,45 +169,74 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7254EA9924C07AFB006BAED2 /* LaunchScreen.storyboard in Resources */,
+				721DB39C24EBC5A0002C42EE /* bad_icon.png in Resources */,
+				72518DDC24EA7452007A742B /* fine_icon.png in Resources */,
 				7254EA9624C07AFB006BAED2 /* Assets.xcassets in Resources */,
-				7254EA9424C07AFA006BAED2 /* Main.storyboard in Resources */,
+				72518DDA24EA51F5007A742B /* splash_icon.png in Resources */,
+				721DB39824EB8FDF002C42EE /* usual_icon.png in Resources */,
+				721DB39B24EBC5A0002C42EE /* very_bad_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77FD1D155762B24C8AA6F207 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirstMVVMproject/Pods-FirstMVVMproject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirstMVVMproject/Pods-FirstMVVMproject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirstMVVMproject/Pods-FirstMVVMproject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5FD744E06C97CB86F1E9F80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirstMVVMproject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7254EA8524C07AFA006BAED2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7254EA9124C07AFA006BAED2 /* ViewController.swift in Sources */,
+				7292923024D0092D00BE1ABC /* WeatherDataService.swift in Sources */,
+				725D7E3024C2034C00728F89 /* AirInfo.swift in Sources */,
+				7254EAA124C080A7006BAED2 /* SplashViewController.swift in Sources */,
+				7292922A24CFE99100BE1ABC /* MainViewController.swift in Sources */,
 				7254EA8D24C07AFA006BAED2 /* AppDelegate.swift in Sources */,
-				7254EA8F24C07AFA006BAED2 /* SceneDelegate.swift in Sources */,
+				72E4B32824C086B00078BE04 /* WeatherDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		7254EA9224C07AFA006BAED2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7254EA9324C07AFA006BAED2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7254EA9724C07AFB006BAED2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7254EA9824C07AFB006BAED2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7254EA9B24C07AFB006BAED2 /* Debug */ = {
@@ -282,16 +355,18 @@
 		};
 		7254EA9E24C07AFB006BAED2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B66DAB6A4ECA8D60E18114C /* Pods-FirstMVVMproject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FirstMVVMproject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = practice.FirstMVVMproject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "공기 어때?";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,16 +374,18 @@
 		};
 		7254EA9F24C07AFB006BAED2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7AFC65B03E625AA13DBB51D /* Pods-FirstMVVMproject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FirstMVVMproject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = practice.FirstMVVMproject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "공기 어때?";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
